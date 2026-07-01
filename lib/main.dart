@@ -1,4 +1,5 @@
 import 'package:book_library_mangement/screens/home_screen.dart';
+import 'package:book_library_mangement/screens/singup_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Books Library Mangement',
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
-      home: HomeScreen(),
+      home: SignupScreen(),
     );
   }
 }
